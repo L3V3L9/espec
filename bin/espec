@@ -1,5 +1,5 @@
 #!/usr/bin/env escript
-%%! -smp enable -sname espec_runner -pa deps/*/ebin -pa ebin
+%%! -smp enable -sname espec_runner -pa deps/*/ebin -pa ebin -pa deps/espec/ebin -pa deps/espec/deps/*/ebin
 
 
 main([]) ->
